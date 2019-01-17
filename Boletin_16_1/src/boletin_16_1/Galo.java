@@ -7,7 +7,8 @@ package boletin_16_1;
 
 public class Galo implements IPodeCantar {
     
-    public void cantar(){
-        System.out.println("Ki Kiri Ki!");
+    @Override
+    public String cantar(){
+        return "Ki Kiri Ki!";
     }
 }

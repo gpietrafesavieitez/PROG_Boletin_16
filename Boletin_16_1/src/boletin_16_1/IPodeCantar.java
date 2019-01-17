@@ -7,5 +7,5 @@ package boletin_16_1;
 
 public interface IPodeCantar {
     
-    public void cantar();
+    String cantar();
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Boletin_16_1">
+  <ClassDiagramComponents>
+    <Class name="Canario" package="boletin_16_1" visibility="public" xPosition="98.0" yPosition="414.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Galo" package="boletin_16_1" visibility="public" xPosition="481.0" yPosition="414.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Persoa" package="boletin_16_1" visibility="public" xPosition="717.0" yPosition="172.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Tenor" package="boletin_16_1" visibility="public" xPosition="875.0" yPosition="414.0">
+      <Fields>
+        <Field name="untitledField" type="Object" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="cantar" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="IPodeCantar" package="boletin_16_1" visibility="public" xPosition="481.0" yPosition="26.0">
+      <Methods>
+        <Method name="cantar" returnType="String" visibility="package"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="boletin_16_1.Persoa" target="boletin_16_1.IPodeCantar"/>
+    <IsRelation name="is" source="boletin_16_1.Tenor" target="boletin_16_1.Persoa"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="boletin_16_1.Galo" target="boletin_16_1.IPodeCantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="boletin_16_1.Canario" target="boletin_16_1.IPodeCantar"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

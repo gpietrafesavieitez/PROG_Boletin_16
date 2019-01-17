@@ -8,13 +8,16 @@ package boletin_16_1;
 public class Boletin_16_1 {
 
     public static void main(String[] args) {
-        IPodeCantar persoa = new Persoa();
-        persoa.cantar();
+        Persoa Pepe = new Persoa();
+        System.out.println("Persoa canta: " + Pepe.cantar());
         
-        IPodeCantar canario = new Canario();
-        canario.cantar();
+        Tenor Pavarotti = new Tenor();
+        System.out.println("Tenor canta: " + Pavarotti.cantar());
         
-        IPodeCantar galo = new Galo();
-        galo.cantar();
+        Canario Kiwi = new Canario();
+        System.out.println("Canario canta: " + Kiwi.cantar());
+       
+        Galo Claudio = new Galo();
+        System.out.println("Galo canta: " + Claudio.cantar());
     }
 }

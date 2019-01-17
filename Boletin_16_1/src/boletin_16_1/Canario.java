@@ -7,7 +7,8 @@ package boletin_16_1;
 
 public class Canario implements IPodeCantar {
     
-    public void cantar(){
-        System.out.println("Pio Pio Pio!");
+    @Override
+    public String cantar(){
+        return "Pio Pio Pio!";
     }
 }
